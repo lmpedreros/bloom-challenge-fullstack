@@ -26,7 +26,7 @@ const BrandService = {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(brands as Brand[]);
-      }, 1000);
+      });
     });
   },
 };
